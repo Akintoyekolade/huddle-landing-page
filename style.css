@@ -52,7 +52,7 @@ p {
 
     .body-copy p {
         font-size: 16px;
-        margin-bottom: 26px;
+        margin-bottom: 32px;
     }
 
     .button {
@@ -87,6 +87,10 @@ p {
     background-image: url("images/bg-mobile.svg"); 
     background-repeat: no-repeat;
     background-size: contain;
+    }
+
+    .main-logo img{
+        max-width: 130px;
     }
 
 
@@ -206,9 +210,12 @@ p {
         justify-content: center;
     }
 
+    .main-logo img{
+        max-width: 200px;
+    }
+
     .hero-image {
-        max-width: 700px;
-        margin-right: 56px;
+        max-width: 100%;        
     }
 
     main {
@@ -219,10 +226,12 @@ p {
 
     .copy {
         margin-top: 40px;
+        margin-left: 56px;
     }
 
     .body-copy {
         max-width: 520px;
+        
     }
 
     .body-copy h1 {
@@ -240,13 +249,15 @@ p {
         padding: 18px 64px; 
         border-radius: 40px;
         font-size: 18px; 
-        margin-top: 40px;           
+        margin-top: 40px;  
+        margin-bottom: 64px;         
     }
 
         
     footer {
         width: 100%;           
-        display: grid;     
+        display: grid; 
+        margin-top: 64px;    
     }
 
     .attribution {
