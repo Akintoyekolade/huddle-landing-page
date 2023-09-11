@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'poppins';
+    src: url('fonts/Poppins-Regular.ttf') format('truetype');
+}
+
+body {
+    font-family: 'poppins', sans-serif;
+    background-color: hsl(257, 40%, 49%);
+    color: white;    
+}
+
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* Main Header Mobile */
+
+@media screen and (max-width: 830px) {
+    .hero-image{
+        width: 100%;
+    }
+
+
+}
